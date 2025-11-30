@@ -10,7 +10,7 @@ var usersRouter = require("./routes/users");
 var app = express();
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://intern-test-three.vercel.app",
     methods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
     credentials: true,
   })
