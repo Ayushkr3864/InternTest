@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 
 
 
-const API_BASE = "http://localhost:3000";
+const API_BASE = " https://interntest.onrender.com";
 
 function highlightText(text = "", added = [], removed = []) {
   // Return an array of React nodes with spans for added/removed words.
